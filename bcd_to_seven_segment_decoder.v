@@ -1,13 +1,3 @@
-/*
- * BCD to Seven Segment Decoder
- * 
- * Paul Enrique Alonso Ramírez A01634608
- * Diseño con lógica programable
- * Grupo 101
- * Tecnológico de Monterrey, Campus Guadalajara
- * Viernes 24 de febrero de 2023
- */
-
 module bcd_to_seven_segment_decoder (
         input wire [3:0] bcd,
         output reg [6:0] seven_segment
